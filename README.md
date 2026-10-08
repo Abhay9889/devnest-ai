@@ -1,26 +1,45 @@
 # DevNest AI
 
-A small, open developer project and landing page.
+DevNest AI is an early-stage open developer project for experimenting
+with AI prompts and developer workflows.
 
-## Purpose
+## 🚀 Features
 
-DevNest AI is an early-stage prototype for experimenting with AI prompts,
-coding workflows, and future developer utilities.
+- Prompt Playground
+- Developer-focused use cases
+- Coding assistance prototype
+- Debugging workflow
+- Concept explanation workflow
+- Project idea exploration
+- Responsive web interface
 
-## Current status
+## 🛠️ Current Technology
 
-This repository currently contains the public landing page and project roadmap.
-LLM/API functionality can be added as the project evolves.
+- HTML
+- CSS
+- JavaScript
+- Vercel
+- GitHub
 
-## Run locally
+## 🧪 Current Status
 
-Open `index.html` in a browser.
+DevNest AI is currently an early-stage prototype.
 
-## Deploy
+The Prompt Playground currently runs as a browser-based demo.
+Future versions may integrate real LLM APIs and additional
+developer utilities.
 
-This is a static site, so it can be deployed directly with GitHub Pages,
-Vercel, Netlify, or another static hosting provider.
+## 🗺️ Roadmap
 
-## License
+1. Prompt Playground
+2. LLM API Integration
+3. Developer Utilities
+4. Community Contributions
+
+## 🌐 Demo
+
+https://devnest-ai.vercel.app
+
+## 📄 License
 
 MIT
