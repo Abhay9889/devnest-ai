@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevNest AI — AI Workspace for Developers</title>
+  <meta name="description" content="DevNest AI is an open developer workspace for prompting, debugging, explaining concepts, and exploring AI-assisted coding workflows.">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="/">DevNest<span>AI</span></a>
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#playground">Playground</a>
+    <a href="#roadmap">Roadmap</a>
+    <a href="/docs.html">Docs</a>
+    <a href="https://github.com/Abhay9889/devnest-ai" target="_blank" rel="noopener">GitHub ↗</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <div class="badge">⚡ Open Developer Project</div>
+  <h1>AI workflows for<br><span>developers.</span></h1>
+  <p>DevNest AI is a lightweight workspace for experimenting with AI-assisted coding, debugging, explanations, and developer ideas.</p>
+  <div class="buttons">
+    <a class="btn primary" href="#playground">Open Playground</a>
+    <a class="btn secondary" href="/docs.html">Read Docs</a>
+  </div>
+  <div class="trust-row">
+    <span>✓ Open source</span><span>✓ Server-side API</span><span>✓ No key in browser</span>
+  </div>
+</section>
+
+<section id="features" class="grid">
+  <article class="card"><div class="icon">💻</div><h2>Code Assistant</h2><p>Ask for implementation approaches, refactoring ideas, and coding guidance.</p></article>
+  <article class="card"><div class="icon">🐛</div><h2>Debugging</h2><p>Turn an error or code snippet into a structured debugging workflow.</p></article>
+  <article class="card"><div class="icon">📚</div><h2>Explain</h2><p>Break technical concepts into clear explanations with practical examples.</p></article>
+  <article class="card"><div class="icon">💡</div><h2>Ideas</h2><p>Explore project concepts, MVP scopes, and implementation roadmaps.</p></article>
+</section>
+
+<section id="playground" class="playground">
+  <div class="section-heading">
+    <div class="badge">AI Playground</div>
+    <h2>Build, ask, iterate.</h2>
+    <p>Demo mode works without an API key. Add an Anthropic key on the server to enable Claude.</p>
+  </div>
+  <div class="playground-box">
+    <div class="form-row">
+      <label for="useCase">Use case</label>
+      <select id="useCase">
+        <option value="coding">💻 Coding Assistant</option>
+        <option value="debug">🐛 Debugging</option>
+        <option value="explain">📚 Explain Concept</option>
+        <option value="idea">💡 Project Ideas</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="prompt">Prompt</label>
+      <textarea id="prompt" maxlength="8000" placeholder="Example: Explain REST APIs to a beginner with a Java example."></textarea>
+      <div class="counter"><span id="count">0</span>/8000</div>
+    </div>
+    <div class="playground-actions">
+      <button class="generate-btn" id="generate">Generate Response</button>
+      <button class="clear-btn" id="clear">Clear</button>
+    </div>
+    <div class="output">
+      <div class="output-header"><span>Response</span><span id="mode" class="demo-label">DEMO</span></div>
+      <div id="response">Your response will appear here...</div>
+    </div>
+  </div>
+</section>
+
+<section id="roadmap" class="roadmap">
+  <div>
+    <div class="badge">Roadmap</div>
+    <h2>From prototype to a practical AI developer workspace.</h2>
+    <p>DevNest AI is intentionally small and transparent. Features are added only when they solve a real developer workflow.</p>
+  </div>
+  <div class="steps">
+    <div><b>01</b><span>Prompt Playground <em>live</em></span></div>
+    <div><b>02</b><span>Claude API integration <em>ready</em></span></div>
+    <div><b>03</b><span>Saved prompts & evaluations</span></div>
+    <div><b>04</b><span>Developer utilities</span></div>
+    <div><b>05</b><span>Community contributions</span></div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Small project. Real architecture.</h2>
+  <p>DevNest AI keeps secrets server-side and separates the public frontend from the AI provider integration.</p>
+  <a class="btn primary" href="/docs.html">See how it works</a>
+</section>
+</main>
+
+<footer>
+  <span>© 2026 DevNest AI</span>
+  <span><a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a> · Open developer project</span>
+</footer>
+
+<script src="/app.js"></script>
+</body>
+</html>
